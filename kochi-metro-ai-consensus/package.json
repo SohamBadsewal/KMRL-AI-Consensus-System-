@@ -1,0 +1,37 @@
+{
+  "name": "kochi-metro-ai-consensus",
+  "version": "1.0.0",
+  "description": "AI-Powered Trainset Induction Planning System for Kochi Metro Railway Limited",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "vite preview --port $PORT"
+  },
+  "keywords": ["railway", "ai", "consensus", "metro", "kochi", "trainset", "planning"],
+  "author": "Kochi Metro Railway Limited",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "recharts": "^2.8.0",
+    "lucide-react": "^0.263.1",
+    "socket.io-client": "^4.7.5",
+    "date-fns": "^2.30.0",
+    "papaparse": "^5.4.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
